@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Playfair+Display+SC&family=Spartan:wght@100&display=swap");
+.header_bar {
+  display: flex;
+  text-align: center;
+  height: 24px;
+  background-color: #121212;
+  color: #ffffff;
+}
+.header_menu {
+  height: 66px;
+
+  background-color: #ffffff;
+}
+.header_news {
+  height: 522px;
+}
+.header_bottom {
+  height: 106px;
+}
+.phone_bar {
+  display: inline-flex;
+  flex-direction: row;
+  padding-left: 86.75px;
+  margin-right: 31.1px;
+
+  img {
+    width: 10.5px;
+    height: 10.5px;
+    padding-top: 6.75px;
+  }
+  a {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    font-family: "Spartan";
+    font-style: normal;
+    opacity: 0.8;
+    padding-top: 6px;
+    padding-left: 9.75px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+.map_bar {
+  display: inline-flex;
+  margin-right: 55px;
+  img {
+    width: 9.8px;
+    height: 11.83px;
+    padding-top: 6.4px;
+  }
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.03em;
+    opacity: 0.8;
+    padding-left: 10.1px;
+    padding-top: 5px;
+  }
+}
+.time_bar {
+  display: inline-flex;
+  img {
+    width: 10px;
+    height: 10px;
+    padding-top: 7px;
+  }
+  p {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-top: 6px;
+  }
+}
+.apps_bar {
+  margin-left: 575px;
+  img {
+    width: 12.13px;
+    height: 12.13px;
+    padding-top: 6px;
+    padding-right: 12px;
+  }
+}
+.header_logo {
+  width: 150px;
+  height: 32px;
+
+  text-align: center;
+  margin-left: 85px;
+  margin-top: 15px;
+  a {
+    text-decoration: none;
+    color: #121212;
+  }
+  p {
+    font-family: "Playfair Display SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.menu_items {
+  margin-left: 314px;
+  margin-top: -20px;
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+  }
+}
+.menu_icons {
+  display: flex;
+  margin-left: 745px;
+  margin-top: -20px;
+  img {
+    display: inline-block;
+    padding-right: 30px;
+    width: 18px;
+    height: 18px;
+  }
+}

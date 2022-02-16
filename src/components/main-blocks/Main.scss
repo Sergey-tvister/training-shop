@@ -1,0 +1,84 @@
+.top_advantage {
+  display: flex;
+  height: 519px;
+  border: 1px solid red;
+}
+.left_advantage {
+  background-image: url("./assets/img/left_advantage.png");
+  width: 540px;
+  height: 490px;
+  margin-top: 32px;
+  margin-left: 85px;
+}
+.title_text {
+  position: absolute;
+  width: 289px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  top: 317px;
+  left: 210px;
+  #banner {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 25px;
+  }
+  p {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    padding-top: 14px;
+  }
+}
+.right_advantage {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 32px;
+  a {
+    text-decoration: none;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #121212;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .women_img {
+    background-image: url("./assets/img/right_advantage1.png");
+    width: 255px;
+    height: 200px;
+  }
+  .title {
+    display: flex;
+    width: 118px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    margin-top: 76px;
+    margin-left: 69px;
+    // a {
+    //   padding-left: 24px;
+    // }
+  }
+  .man_img {
+    background-image: url("./assets/img/right_advantage2.png");
+    width: 255px;
+    height: 200px;
+  }
+}
